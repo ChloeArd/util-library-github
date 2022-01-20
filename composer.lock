@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a531bc2667181b8f45c503d2320c38cf",
+    "packages": [
+        {
+            "name": "chloe/php-pdo-singleton",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChloeArd2/php-pdo-singleton.git",
+                "reference": "f64dad11f1c4387cefeb45b17f49fe2a195dcef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChloeArd2/php-pdo-singleton/zipball/f64dad11f1c4387cefeb45b17f49fe2a195dcef3",
+                "reference": "f64dad11f1c4387cefeb45b17f49fe2a195dcef3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chloe\\PhpPdoSingleton\\": "src/"
+                }
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "chloe",
+                    "email": "chloe.ardoise@gmail.com"
+                }
+            ],
+            "description": "Easy way to connect to MySql using PDO",
+            "support": {
+                "source": "https://github.com/ChloeArd2/php-pdo-singleton/tree/main",
+                "issues": "https://github.com/ChloeArd2/php-pdo-singleton/issues"
+            },
+            "time": "2022-01-07T10:30:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "chloe/php-pdo-singleton": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

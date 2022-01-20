@@ -1,0 +1,26 @@
+{
+    "name": "chloe/util-library-github",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Chloe\\UtilLibraryGithub\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChloeArd",
+            "email": "chloe.ardoise@gmail.com"
+        }
+    ],
+    "require": {
+        "chloe/php-pdo-singleton" : "dev-main",
+      "ext-json": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ChloeArd2/php-pdo-singleton.git"
+        }
+    ]
+}
