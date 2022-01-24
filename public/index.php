@@ -9,9 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 
 require "../vendor/autoload.php";
 
-$path = "/";
-
-$router = new Router(RequestContext::fromRequest(new Request("GET", $path)));
+$router = new Router(RequestContext::fromRequest(new Request("GET", "/")));
 
 $router->add(new Route("home", "/", function (): ResponseInterface {
     require_once "./view/index.html";
