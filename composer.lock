@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a531bc2667181b8f45c503d2320c38cf",
+    "content-hash": "c051827347166aae6ce2b912dfbc0336",
     "packages": [
         {
             "name": "chloe/php-pdo-singleton",
@@ -45,17 +45,61 @@
                 "issues": "https://github.com/ChloeArd2/php-pdo-singleton/issues"
             },
             "time": "2022-01-07T10:30:40+00:00"
+        },
+        {
+            "name": "chloe/routeur",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ChloeArd2/router.git",
+                "reference": "6e841274b47f2a4d5724fcb43cc0ec64ace0ec28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChloeArd2/router/zipball/6e841274b47f2a4d5724fcb43cc0ec64ace0ec28",
+                "reference": "6e841274b47f2a4d5724fcb43cc0ec64ace0ec28",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Chloe\\Routeur\\": "source/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chloe\\Routeur\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ChloeArd",
+                    "email": "chloe.ardoise@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ChloeArd2/router/tree/master",
+                "issues": "https://github.com/ChloeArd2/router/issues"
+            },
+            "time": "2022-01-24T13:48:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "chloe/php-pdo-singleton": 20
+        "chloe/php-pdo-singleton": 20,
+        "chloe/routeur": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
 }

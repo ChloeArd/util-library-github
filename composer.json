@@ -14,13 +14,18 @@
     ],
     "require": {
         "chloe/php-pdo-singleton" : "dev-main",
-      "ext-json": "*"
+      "ext-json": "*",
+        "chloe/routeur" : "dev-master"
     },
 
     "repositories": [
         {
             "type": "vcs",
             "url": "git@github.com:ChloeArd2/php-pdo-singleton.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:ChloeArd2/router.git"
         }
     ]
 }

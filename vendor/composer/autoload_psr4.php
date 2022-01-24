@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Chloe\\UtilLibraryGithub\\' => array($baseDir . '/src'),
+    'Chloe\\Routeur\\' => array($vendorDir . '/chloe/routeur/source'),
     'Chloe\\PhpPdoSingleton\\' => array($vendorDir . '/chloe/php-pdo-singleton/src'),
 );

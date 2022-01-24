@@ -10,6 +10,7 @@ class ComposerStaticInit99a91a4bce80b55e89bfa6d7fdc908c3
         'C' => 
         array (
             'Chloe\\UtilLibraryGithub\\' => 24,
+            'Chloe\\Routeur\\' => 14,
             'Chloe\\PhpPdoSingleton\\' => 22,
         ),
     );
@@ -18,6 +19,10 @@ class ComposerStaticInit99a91a4bce80b55e89bfa6d7fdc908c3
         'Chloe\\UtilLibraryGithub\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Chloe\\Routeur\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chloe/routeur/source',
         ),
         'Chloe\\PhpPdoSingleton\\' => 
         array (

@@ -42,6 +42,50 @@
                 "issues": "https://github.com/ChloeArd2/php-pdo-singleton/issues"
             },
             "install-path": "../chloe/php-pdo-singleton"
+        },
+        {
+            "name": "chloe/routeur",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ChloeArd2/router.git",
+                "reference": "6e841274b47f2a4d5724fcb43cc0ec64ace0ec28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChloeArd2/router/zipball/6e841274b47f2a4d5724fcb43cc0ec64ace0ec28",
+                "reference": "6e841274b47f2a4d5724fcb43cc0ec64ace0ec28",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "time": "2022-01-24T13:48:55+00:00",
+            "default-branch": true,
+            "type": "project",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Chloe\\Routeur\\": "source/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chloe\\Routeur\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ChloeArd",
+                    "email": "chloe.ardoise@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ChloeArd2/router/tree/master",
+                "issues": "https://github.com/ChloeArd2/router/issues"
+            },
+            "install-path": "../chloe/routeur"
         }
     ],
     "dev": true,
