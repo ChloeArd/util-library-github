@@ -15,7 +15,8 @@
     "require": {
         "chloe/php-pdo-singleton" : "dev-main",
       "ext-json": "*",
-        "chloe/routeur" : "dev-master"
+        "chloe/routeur" : "dev-master",
+        "guzzlehttp/guzzle": "^7.4"
     },
 
     "repositories": [
