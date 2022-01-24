@@ -11,10 +11,14 @@ require "../vendor/autoload.php";
 
 $router = new Router(RequestContext::fromRequest(new Request("GET", "/")));
 
-$router->add(new Route("home", "/", function (): ResponseInterface {
+$route = new Route("home", "/", function (): ResponseInterface {
     require_once "./view/index.html";
     return new Response(200, [], "Hello world !");
-}));
+});
+
+$router->add($route);
+
+echo "Nom de la route : " . $route->getName();
 
 /** @var ResponseInterface $response */
 $response = $router->call();
